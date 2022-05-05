@@ -47,3 +47,7 @@ spring:
     username: root
     password: as!234
 
+logging:
+  level:
+    com.example.userservice: debug
+
