@@ -38,6 +38,7 @@ public class AuthenticationFilter extends UsernamePasswordAuthenticationFilter {
 
     }
 
+    // 로그인 성공 후처리
     @Override
     protected void successfulAuthentication(HttpServletRequest request,
                                             HttpServletResponse response,
